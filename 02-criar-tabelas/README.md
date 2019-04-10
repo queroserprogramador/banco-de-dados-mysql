@@ -46,3 +46,10 @@ insert into usuarios (nome, senha, apelido, verificado, data_cadastro)
 ('Quero ser programador de novo', 'zas2', 'qsprogramador',  1, '2019-01-01'),
 ('Carol Schmit', 'foo', 'carol2019',  1, '2017-03-12');
 ```
+Perceba que podemos usar apenas um comando insert definindo vários values e que também não passamos a coluna email, mesmo assim o mysql aceitou gravar as linhas sem esse valor, ou melhor, com valor `null` (vazio). 
+
+### 04 
+
+Além de definir os tipos de colunas voce pode definir que uma tabela não aceita valores null. Para isso basta na definição da coluna colocar no fim `not null`. 
+Delete a tabela mensagens usando o comando `drop table mensagens` e após isso crie ela novamente definindo que a coluna texto é not null. 
+Após isso tente inserir uma mensagem sem texto e veja se o mysql mostra um erro. 
