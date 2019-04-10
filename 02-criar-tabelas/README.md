@@ -18,10 +18,15 @@ No vídeo citado acima nós criamos uma tabela usando o comando  `create table u
 | verificado  |
 |data_cadastro|
 
-Logo em seguida nós citamos uma tabela de tweets. Observando a estrutura dessa tabela, crie e rode e comando para criá-la. 
+Logo em seguida nós citamos uma tabela de tweets. Observando a estrutura dessa tabela, escreva e rode e comando para criá-la. 
 
 | Tweets  |
 |---|
 | texto  |
-| apelido_usuario  |
+| usuario  |
 |data_cadastro|
+
+### 02
+Assim como os tipos de colunas que vemos no vídeo (varchar, tinyint e datetime), o mysql possui vários outros ([documentação oficial em inglês](https://dev.mysql.com/doc/refman/8.0/en/data-types.html) ). Cria uma tabela chamada `mensagens` que é identica a tabela tweets, porém ela usa o tipo de coluna text ao invés de varchar. Não se esquece de usar o comando `desc mensagens` para confirmar a estrutura da tabela.  
+
+### 03 
