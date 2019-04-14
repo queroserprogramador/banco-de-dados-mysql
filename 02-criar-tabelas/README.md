@@ -27,7 +27,7 @@ Logo em seguida nós citamos uma tabela de tweets. Observando a estrutura dessa 
 |data_cadastro|
 
 ### 02
-Assim como os tipos de colunas que vemos no vídeo (varchar, tinyint e datetime), o mysql possui vários outros ([documentação oficial em inglês](https://dev.mysql.com/doc/refman/8.0/en/data-types.html) ). Cria uma tabela chamada `mensagens` que é identica a tabela tweets, porém ela usa o tipo de coluna text ao invés de varchar. Não se esquece de usar o comando `desc mensagens` para confirmar a estrutura da tabela.  
+Assim como os tipos de colunas que vemos no vídeo (varchar, tinyint e datetime), o mysql possui vários outros ([documentação oficial em inglês](https://dev.mysql.com/doc/refman/8.0/en/data-types.html) ). Cria uma tabela chamada `mensagens` que é identica a tabela tweets, porém ela usa o tipo de coluna text ao invés de varchar. Não se esqueça de usar o comando `desc mensagens` para confirmar a estrutura da tabela.  
 
 ### 03 
 Supondo que você acompanhou nosso vídeo e criou a tabela de usuarios. Rode o seguinte comando para popular essa tabela com outras linhas: 
