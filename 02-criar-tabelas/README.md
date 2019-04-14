@@ -50,6 +50,14 @@ Perceba que podemos usar apenas um comando insert definindo vários values e que
 
 ### 04 
 
-Além de definir os tipos de colunas voce pode definir que uma tabela não aceita valores null. Para isso basta na definição da coluna colocar no fim `not null`. 
+Além de definir os tipos de colunas você pode definir que uma tabela não aceita valores null. Para isso basta na definição da coluna colocar no fim `not null`. 
 Delete a tabela mensagens usando o comando `drop table mensagens` e após isso crie ela novamente definindo que a coluna texto é not null. 
-Após isso tente inserir uma mensagem sem texto e veja se o mysql mostra um erro. 
+Após isso tente inserir uma mensagem sem texto e veja se o mysql mostra um erro. Se sim, você criou a tabela de forma correta. 
+
+
+### Comentários
+
+Se tiver alguma dúvida mais pessoal é so mandá-la no [twitter](http://twitter.com/qsprogramador) ou no [facebook](http://facebook.com/queroserprogramador) ou pelos próprios vídeos da série. 
+Se [Inscreve no canal](https://www.youtube.com/queroserprogramador/) para não perder próximos vídeos relacionados ao assunto como a resolução desses exercícios. 
+
+
