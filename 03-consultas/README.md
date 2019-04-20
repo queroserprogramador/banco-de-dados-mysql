@@ -1,4 +1,4 @@
-# 02 Como criar tabelas no mysql 
+# 03 Consultas no mysql
 ## Vídeo
 
 https://youtu.be/s-doHvkPleE
