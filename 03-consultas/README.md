@@ -23,7 +23,13 @@ Returne o apelido e a data de cadastro de todos os usuarios cadastrados em 2019.
 
 Escreva a consulta de login do usuário de nome `Claudio Souza`. 
 
-Retorne todos os usuários que não foram cadastrados em 2018. 
+### 05 
+
+Retorne o número de usuários que não foram cadastrados em 2018. 
+
+### 06
+
+Retorne os três primeiros usuários cadastrados no sistema. 
 
 
 
